@@ -26,11 +26,11 @@ const Hero = () => {
           <button className="bg-[#dd8c12] font-medium py-3  w-[200px] text-white">
             Find your Next Event
           </button>
-          <button className="w-[200px] font-medium py-3 px-5 border-2 border-[#3b1686]">
+          <button className="w-[200px] font-medium text-[#3b1686] py-3 px-5 border-2 border-[#3b1686]">
             Host and Event
           </button>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 w-full py-10 sm:py-20">
+        <div className="grid grid-cols-2 sm:grid-cols-4 w-full py-10 sm:py-20">
           <div className="flex flex-col w-full items-center justify-center gap-6">
             <div className="w-full h-full max-w-[100px] max-h-[100px] rounded-[50%] border-2 border-[#3a0c96] p-5">
               <img
