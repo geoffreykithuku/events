@@ -4,7 +4,7 @@ import exhibition from "../assets/exhibition.svg";
 import live from "../assets/live.svg";
 import meetup from "../assets/meetup.svg";
 import wave6 from "../assets/wave6.svg";
-import bg from "../assets/bg.jpg";
+
 
 const Hero = () => {
   return (
@@ -21,8 +21,8 @@ const Hero = () => {
         </div>
       </div>
       <div className="flex flex-col items-center md:flex-row  relative top-[10vw] sm:top-[5vw] md:top-[-5vw]">
-        <div className="w-full flex flex-col justify-center items-center md:items-start md:justify-start  px-5 sm:px-24 gap-6">
-          <h1 className="text-xl font-medium text-[#44375f] max-w-[350px]">
+        <div className="w-full flex flex-col justify-center items-center md:items-start md:justify-start  px-5 sm:px-24 gap-6 md:mt-[-150px]">
+          <h1 className="text-xl font-medium text-[#44375f] max-w-[350px] pr-5">
             Discover and Engage with Exciting Events in Your Area
           </h1>
           <button className="bg-[#dd8c12] font-medium py-3  w-[200px] text-white">
@@ -33,7 +33,7 @@ const Hero = () => {
           </button>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-4 w-full py-10 sm:py-20">
-          <div className="flex flex-col w-full items-center justify-center gap-6">
+          <div className="flex flex-col w-full items-center justify-start gap-6">
             <div className="w-full h-full max-w-[100px] max-h-[100px] rounded-[50%] border-2 border-[#3a0c96] p-5">
               <img
                 src={conference}
@@ -43,7 +43,7 @@ const Hero = () => {
             </div>
             <h2 className="text-lg tracking-wide text-center ">Conference</h2>
           </div>
-          <div className="flex flex-col w-full items-center justify-center gap-6">
+          <div className="flex flex-col w-full items-center justify-start gap-6">
             <div className="w-full h-full max-w-[100px] max-h-[100px] rounded-[50%] border-2 border-[#3a0c96] p-5">
               <img
                 src={exhibition}
@@ -53,7 +53,7 @@ const Hero = () => {
             </div>
             <h2 className="text-lg tracking-wide text-center ">Exhibition</h2>
           </div>
-          <div className="flex flex-col w-full items-center justify-center gap-6">
+          <div className="flex flex-col w-full items-center justify-start gap-6">
             <div className="w-full h-full max-w-[100px] max-h-[100px] rounded-[50%] border-2 border-[#3a0c96] p-5">
               <img src={live} alt="" className="w-full h-full object-cover" />
             </div>
@@ -61,7 +61,7 @@ const Hero = () => {
               Live Performances
             </h2>
           </div>
-          <div className="flex flex-col w-full items-center justify-center gap-6">
+          <div className="flex flex-col w-full items-center justify-start gap-6">
             <div className="w-full h-full max-w-[100px] max-h-[100px] rounded-[50%] border-2 border-[#3a0c96] p-5">
               <img src={meetup} alt="" className="w-full h-full object-cover" />
             </div>
