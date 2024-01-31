@@ -5,7 +5,11 @@ const Event = ({ event }) => {
   const { title, description, date, location, image } = event;
   return (
     <div className="max-w-[300px] text-sm border flex flex-col m-5 text-[#2f204e] ">
-      <img src={image} alt="" />
+      <img
+        src={image}
+        alt=""
+        className="w-full h-[200px] object-cover"
+      />
       <div className="p-3 flex gap-5 flex-col">
         <h2 className="font-medium text-xl">{title}</h2>
         <p>{description}</p>

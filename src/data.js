@@ -13,7 +13,7 @@ const events = [
     description:
       "Explore the world of data science at our conference. Learn from experts, participate in hands-on workshops, and gain insights into the latest trends in data analytics.",
     date: "March 10, 2024",
-    location: "Data Center, 456 Data Street, Dataville",
+    location: "Data Center, 456 Data Street, Toronto",
     image:
       "https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
@@ -22,7 +22,7 @@ const events = [
     description:
       "Join thought leaders in artificial intelligence to discuss the future of AI. Dive into discussions on machine learning, ethics, and the impact of AI on various industries.",
     date: "April 5, 2024",
-    location: "AI Institute, 789 Future Avenue, Aiville",
+    location: "AI Institute, 789 Future Avenue, Robotown",
     image:
       "https://images.pexels.com/photos/6696172/pexels-photo-6696172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
@@ -31,7 +31,7 @@ const events = [
     description:
       "Calling all web developers! Attend our expo to explore the latest trends in web development. Learn about new frameworks, tools, and best practices.",
     date: "May 20, 2024",
-    location: "Web Center, 567 Dev Street, Webville",
+    location: "Web Center, 567 Dev Street, Zen City",
     image:
       "https://images.pexels.com/photos/7550581/pexels-photo-7550581.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
