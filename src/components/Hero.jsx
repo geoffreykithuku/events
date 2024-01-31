@@ -9,7 +9,9 @@ import bg from "../assets/bg.jpg";
 const Hero = () => {
   return (
     <div>
-      <div className="relative w-full hero-section z-0">
+          <div className="relative w-full hero-section z-0"
+          
+          >
         <div className="absolute w-full bottom-0 left-0 right-0 z-0 wavy ">
           <img
             src={wave6}

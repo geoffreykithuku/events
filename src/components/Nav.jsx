@@ -3,7 +3,7 @@ import logo from '../assets/logo.png'
 import { Search , FilePenLine, User} from 'lucide-react';
 const Nav = () => {
   return (
-    <div className="absolute top-0 text-white z-10 w-full text-lg pl-20 py-6">
+    <div className="absolute top-0 text-white z-10 w-full text-lg pl-5 md:pl-20 py-6">
       <nav className="w-full flex justify-between">
         <span className="flex gap-2  items-center w-full font-medium">
           <img src={logo} alt="" className="w-[50px] h-[50px]" />
